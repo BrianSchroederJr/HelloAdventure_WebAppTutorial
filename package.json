@@ -1,6 +1,7 @@
 {
   "name": "hello-arthur",
   "version": "1.0.0",
+  "engines": {"node": "12.16.1"},
   "description": "Hello, my name is Arthur.",
   "main": "helloArthur.js",
   "scripts": {
