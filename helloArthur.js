@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
   //res.statusCode = 200; // Set response status code (200 = OK)
   //res.setHeader('Content-Type', 'text/plain');  // Set response header content type (plain text here)
   //res.end(msg); // Add message to response and end it causing the reponse to be sent back to the requester
-  fs.readFile(__dirname + 'village-square.html', function (err, data) {
+  fs.readFile(__dirname + '/village-square.html', function (err, data) {
     if (err) {
       res.writeHead(404);
       res.end(JSON.stringify(err));
