@@ -1,7 +1,7 @@
 const http = require('http'); // Built in Node module for handling HTTP requests and responses
 const fs = require('fs'); // Node module for File System operations
 
-const msg = 'Hello, my name is Arthur2.  Please join me on this learning adventure.';  // Message to display on web page
+const msg = 'Hello, my name is Arthur.  Please join me on this learning adventure.';  // Message to display on web page
 const port = process.env.PORT || 8000;  // Port number to serve web page on
 
 // Create HTTP server and send/end response with simple text
